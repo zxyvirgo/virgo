@@ -1,4 +1,4 @@
-package com.example.xiaoyuantong;
+﻿package com.example.xiaoyuantong;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -52,9 +52,9 @@ public class AllLandFActivity extends Activity {
         list = (ListView) findViewById(R.id.ListView01);
         
         //生成动态数组，加入数据
-        listItem = new ArrayList<HashMap<String, Object>>();
+ //       listItem = new ArrayList<HashMap<String, Object>>();
        
-        	HashMap<String, Object> map = new HashMap<String, Object>();
+   //     	HashMap<String, Object> map = new HashMap<String, Object>();
         	map.put("ItemImage", R.drawable.friends);//图像资源的ID
         	map.put("ItemTitle", "");
         	map.put("ItemText", "");
