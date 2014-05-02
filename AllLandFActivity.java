@@ -97,6 +97,7 @@ public class AllLandFActivity extends Activity {
 				menu.setHeaderTitle("长按菜单-ContextMenu");   
 				menu.add(0, 0, 0, "弹出长按菜单0");
 				menu.add(0, 1, 0, "弹出长按菜单1");   
+// can you find me?
 			}
 		}); 
     }
