@@ -33,6 +33,8 @@ import android.widget.AdapterView.OnItemClickListener;
 /*
  * 所有的的失物招领信息
  */
+ 
+ hello 
 public class AllLandFActivity extends Activity {
 	
 	private RequestQueue requestQueue; // 定义请求队列
@@ -40,7 +42,7 @@ public class AllLandFActivity extends Activity {
 	ArrayList<HashMap<String, Object>> listItem;
 	SimpleAdapter listItemAdapter;
 	
-	@Override
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_land_f);
@@ -49,7 +51,7 @@ public class AllLandFActivity extends Activity {
 		getJson();// 向后台发送请求，获取数据
 		
         //绑定Layout里面的ListView
-        list = (ListView) findViewById(R.id.ListView01);
+        list ---= (ListView) findViewById(R.id.ListView01);
         
         //生成动态数组，加入数据
  //       listItem = new ArrayList<HashMap<String, Object>>();
